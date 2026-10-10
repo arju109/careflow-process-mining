@@ -1,0 +1,605 @@
+case_id,activity,timestamp,resource,patient_age,patient_gender,severity,doctor
+P000011,Registration,2026-09-01 05:34:53,Desk 1,50,F,Medium,Dr. Singh
+P000011,Triage,2026-09-01 05:46:15,Nurse A,50,F,Medium,Dr. Singh
+P000011,Doctor Consultation,2026-09-01 05:58:36,Dr. Singh,50,F,Medium,Dr. Singh
+P000011,Treatment,2026-09-01 06:10:58,Dr. Singh,50,F,Medium,Dr. Singh
+P000011,Discharge,2026-09-01 06:48:36,Desk 1,50,F,Medium,Dr. Singh
+P000025,Registration,2026-09-01 08:14:24,Desk 1,65,F,Low,Dr. Singh
+P000025,Triage,2026-09-01 08:20:09,Nurse C,65,F,Low,Dr. Singh
+P000025,Doctor Consultation,2026-09-01 08:33:03,Dr. Singh,65,F,Low,Dr. Singh
+P000025,Treatment,2026-09-01 08:50:15,Dr. Singh,65,F,Low,Dr. Singh
+P000097,Registration,2026-09-01 09:15:28,Desk 2,34,M,Low,Dr. Mehta
+P000025,Discharge,2026-09-01 09:21:10,Desk 1,65,F,Low,Dr. Singh
+P000097,Triage,2026-09-01 09:25:41,Nurse B,34,M,Low,Dr. Mehta
+P000097,Doctor Consultation,2026-09-01 09:42:53,Dr. Mehta,34,M,Low,Dr. Mehta
+P000046,Registration,2026-09-01 10:03:18,Desk 2,60,M,Medium,Dr. Rao
+P000097,X-Ray,2026-09-01 10:09:43,Rad Tech 2,34,M,Low,Dr. Mehta
+P000046,Triage,2026-09-01 10:11:56,Nurse C,60,M,Medium,Dr. Rao
+P000046,Doctor Consultation,2026-09-01 10:38:19,Dr. Rao,60,M,Medium,Dr. Rao
+P000097,Triage,2026-09-01 10:48:27,Nurse B,34,M,Low,Dr. Mehta
+P000046,X-Ray,2026-09-01 11:08:14,Rad Tech 2,60,M,Medium,Dr. Rao
+P000097,Doctor Consultation,2026-09-01 11:31:26,Dr. Mehta,34,M,Low,Dr. Mehta
+P000046,Triage,2026-09-01 11:42:30,Nurse C,60,M,Medium,Dr. Rao
+P000097,Treatment,2026-09-01 11:50:07,Dr. Mehta,34,M,Low,Dr. Mehta
+P000097,Discharge,2026-09-01 12:13:06,Desk 2,34,M,Low,Dr. Mehta
+P000047,Registration,2026-09-01 12:22:37,Desk 2,58,F,Medium,Dr. Mehta
+P000047,Triage,2026-09-01 12:26:59,Nurse B,58,F,Medium,Dr. Mehta
+P000047,Doctor Consultation,2026-09-01 12:37:09,Dr. Mehta,58,F,Medium,Dr. Mehta
+P000046,Doctor Consultation,2026-09-01 12:40:53,Dr. Rao,60,M,Medium,Dr. Rao
+P000047,X-Ray,2026-09-01 12:59:38,Rad Tech 1,58,F,Medium,Dr. Mehta
+P000046,Treatment,2026-09-01 13:01:06,Dr. Rao,60,M,Medium,Dr. Rao
+P000046,Admission,2026-09-01 13:30:52,Desk 2,60,M,Medium,Dr. Rao
+P000047,Triage,2026-09-01 13:33:59,Nurse B,58,F,Medium,Dr. Mehta
+P000047,Doctor Consultation,2026-09-01 14:16:31,Dr. Mehta,58,F,Medium,Dr. Mehta
+P000047,Treatment,2026-09-01 14:31:17,Dr. Mehta,58,F,Medium,Dr. Mehta
+P000047,Discharge,2026-09-01 15:18:42,Desk 1,58,F,Medium,Dr. Mehta
+P000035,Registration,2026-09-01 15:26:38,Desk 1,65,F,Low,Dr. Mehta
+P000035,Triage,2026-09-01 15:36:12,Nurse B,65,F,Low,Dr. Mehta
+P000035,Doctor Consultation,2026-09-01 15:45:01,Dr. Mehta,65,F,Low,Dr. Mehta
+P000035,Treatment,2026-09-01 16:07:40,Dr. Mehta,65,F,Low,Dr. Mehta
+P000035,Discharge,2026-09-01 16:31:58,Desk 1,65,F,Low,Dr. Mehta
+P000054,Registration,2026-09-01 17:01:08,Desk 1,79,M,Medium,Dr. Mehta
+P000054,Triage,2026-09-01 17:08:04,Nurse A,79,M,Medium,Dr. Mehta
+P000052,Registration,2026-09-01 17:13:28,Desk 2,66,F,Medium,Dr. Iyer
+P000033,Registration,2026-09-01 17:20:07,Desk 1,58,F,Low,Dr. Mehta
+P000052,Triage,2026-09-01 17:20:45,Nurse B,66,F,Medium,Dr. Iyer
+P000033,Triage,2026-09-01 17:31:07,Nurse C,58,F,Low,Dr. Mehta
+P000054,Doctor Consultation,2026-09-01 17:40:17,Dr. Mehta,79,M,Medium,Dr. Mehta
+P000052,Doctor Consultation,2026-09-01 17:52:09,Dr. Iyer,66,F,Medium,Dr. Iyer
+P000033,Doctor Consultation,2026-09-01 18:04:18,Dr. Mehta,58,F,Low,Dr. Mehta
+P000054,Treatment,2026-09-01 18:13:29,Dr. Mehta,79,M,Medium,Dr. Mehta
+P000052,X-Ray,2026-09-01 18:31:16,Rad Tech 2,66,F,Medium,Dr. Iyer
+P000033,X-Ray,2026-09-01 18:45:57,Rad Tech 1,58,F,Low,Dr. Mehta
+P000054,Discharge,2026-09-01 19:04:59,Desk 2,79,M,Medium,Dr. Mehta
+P000052,Treatment,2026-09-01 19:18:44,Dr. Iyer,66,F,Medium,Dr. Iyer
+P000033,Triage,2026-09-01 19:24:10,Nurse B,58,F,Low,Dr. Mehta
+P000034,Registration,2026-09-01 19:36:18,Desk 2,38,M,Medium,Dr. Khan
+P000034,Triage,2026-09-01 19:43:43,Nurse B,38,M,Medium,Dr. Khan
+P000030,Registration,2026-09-01 19:52:31,Desk 1,28,F,Low,Dr. Iyer
+P000003,Registration,2026-09-01 19:55:06,Desk 2,11,M,Medium,Dr. Iyer
+P000003,Triage,2026-09-01 20:02:56,Nurse C,11,M,Medium,Dr. Iyer
+P000030,Triage,2026-09-01 20:04:11,Nurse B,28,F,Low,Dr. Iyer
+P000099,Registration,2026-09-01 20:07:03,Desk 1,3,F,Medium,Dr. Iyer
+P000034,Doctor Consultation,2026-09-01 20:08:27,Dr. Khan,38,M,Medium,Dr. Khan
+P000052,Discharge,2026-09-01 20:10:19,Desk 1,66,F,Medium,Dr. Iyer
+P000030,Doctor Consultation,2026-09-01 20:11:46,Dr. Iyer,28,F,Low,Dr. Iyer
+P000099,Triage,2026-09-01 20:11:49,Nurse C,3,F,Medium,Dr. Iyer
+P000033,Doctor Consultation,2026-09-01 20:13:15,Dr. Mehta,58,F,Low,Dr. Mehta
+P000003,Doctor Consultation,2026-09-01 20:19:45,Dr. Iyer,11,M,Medium,Dr. Iyer
+P000030,Treatment,2026-09-01 20:20:27,Dr. Iyer,28,F,Low,Dr. Iyer
+P000099,Doctor Consultation,2026-09-01 20:25:18,Dr. Iyer,3,F,Medium,Dr. Iyer
+P000033,Treatment,2026-09-01 20:29:10,Dr. Mehta,58,F,Low,Dr. Mehta
+P000099,Treatment,2026-09-01 20:34:01,Dr. Iyer,3,F,Medium,Dr. Iyer
+P000003,X-Ray,2026-09-01 20:35:38,Rad Tech 2,11,M,Medium,Dr. Iyer
+P000034,Treatment,2026-09-01 20:36:57,Dr. Khan,38,M,Medium,Dr. Khan
+P000030,Discharge,2026-09-01 20:47:17,Desk 2,28,F,Low,Dr. Iyer
+P000033,Discharge,2026-09-01 20:49:46,Desk 2,58,F,Low,Dr. Mehta
+P000003,Treatment,2026-09-01 20:56:06,Dr. Iyer,11,M,Medium,Dr. Iyer
+P000034,Admission,2026-09-01 21:02:00,Desk 1,38,M,Medium,Dr. Khan
+P000003,Discharge,2026-09-01 21:08:44,Desk 1,11,M,Medium,Dr. Iyer
+P000099,Discharge,2026-09-01 21:10:30,Desk 2,3,F,Medium,Dr. Iyer
+P000094,Registration,2026-09-01 22:59:10,Desk 2,63,F,Low,Dr. Mehta
+P000094,Triage,2026-09-01 23:05:58,Nurse B,63,F,Low,Dr. Mehta
+P000094,Doctor Consultation,2026-09-01 23:17:00,Dr. Mehta,63,F,Low,Dr. Mehta
+P000094,Treatment,2026-09-01 23:37:45,Dr. Mehta,63,F,Low,Dr. Mehta
+P000094,Admission,2026-09-01 23:51:48,Desk 1,63,F,Low,Dr. Mehta
+P000069,Registration,2026-09-02 08:44:49,Desk 1,18,M,Medium,Dr. Mehta
+P000069,Triage,2026-09-02 08:46:38,Nurse A,18,M,Medium,Dr. Mehta
+P000069,Doctor Consultation,2026-09-02 08:54:00,Dr. Mehta,18,M,Medium,Dr. Mehta
+P000069,X-Ray,2026-09-02 09:20:23,Rad Tech 2,18,M,Medium,Dr. Mehta
+P000069,Triage,2026-09-02 09:47:33,Nurse A,18,M,Medium,Dr. Mehta
+P000069,Doctor Consultation,2026-09-02 10:19:30,Dr. Mehta,18,M,Medium,Dr. Mehta
+P000069,Treatment,2026-09-02 10:39:31,Dr. Mehta,18,M,Medium,Dr. Mehta
+P000015,Registration,2026-09-02 10:56:06,Desk 1,76,F,High,Dr. Rao
+P000015,Triage,2026-09-02 11:05:14,Nurse A,76,F,High,Dr. Rao
+P000015,Doctor Consultation,2026-09-02 11:37:20,Dr. Rao,76,F,High,Dr. Rao
+P000069,Discharge,2026-09-02 11:47:50,Desk 1,18,M,Medium,Dr. Mehta
+P000015,X-Ray,2026-09-02 12:03:20,Rad Tech 2,76,F,High,Dr. Rao
+P000015,Treatment,2026-09-02 12:10:15,Dr. Rao,76,F,High,Dr. Rao
+P000015,Discharge,2026-09-02 12:50:47,Desk 1,76,F,High,Dr. Rao
+P000091,Registration,2026-09-02 15:42:30,Desk 2,20,M,Medium,Dr. Singh
+P000091,Triage,2026-09-02 15:47:55,Nurse B,20,M,Medium,Dr. Singh
+P000091,Doctor Consultation,2026-09-02 16:06:19,Dr. Singh,20,M,Medium,Dr. Singh
+P000091,Treatment,2026-09-02 16:14:49,Dr. Singh,20,M,Medium,Dr. Singh
+P000091,Discharge,2026-09-02 16:39:39,Desk 2,20,M,Medium,Dr. Singh
+P000028,Registration,2026-09-02 16:49:41,Desk 1,54,M,High,Dr. Iyer
+P000028,Triage,2026-09-02 16:53:21,Nurse A,54,M,High,Dr. Iyer
+P000037,Registration,2026-09-02 16:58:17,Desk 1,76,M,Low,Dr. Singh
+P000037,Triage,2026-09-02 17:02:20,Nurse A,76,M,Low,Dr. Singh
+P000028,Doctor Consultation,2026-09-02 17:08:44,Dr. Iyer,54,M,High,Dr. Iyer
+P000058,Registration,2026-09-02 17:14:54,Desk 1,1,M,Medium,Dr. Mehta
+P000058,Triage,2026-09-02 17:22:41,Nurse B,1,M,Medium,Dr. Mehta
+P000037,Doctor Consultation,2026-09-02 17:28:28,Dr. Singh,76,M,Low,Dr. Singh
+P000028,X-Ray,2026-09-02 17:42:16,Rad Tech 1,54,M,High,Dr. Iyer
+P000037,Treatment,2026-09-02 17:50:06,Dr. Singh,76,M,Low,Dr. Singh
+P000058,Doctor Consultation,2026-09-02 17:52:53,Dr. Mehta,1,M,Medium,Dr. Mehta
+P000058,Treatment,2026-09-02 18:11:54,Dr. Mehta,1,M,Medium,Dr. Mehta
+P000028,Treatment,2026-09-02 18:17:24,Dr. Iyer,54,M,High,Dr. Iyer
+P000037,Discharge,2026-09-02 18:25:34,Desk 2,76,M,Low,Dr. Singh
+P000016,Registration,2026-09-02 18:35:45,Desk 2,54,F,Medium,Dr. Iyer
+P000016,Triage,2026-09-02 18:44:15,Nurse C,54,F,Medium,Dr. Iyer
+P000058,Discharge,2026-09-02 18:50:08,Desk 1,1,M,Medium,Dr. Mehta
+P000028,Discharge,2026-09-02 19:06:23,Desk 2,54,M,High,Dr. Iyer
+P000016,Doctor Consultation,2026-09-02 19:07:10,Dr. Iyer,54,F,Medium,Dr. Iyer
+P000016,Treatment,2026-09-02 19:47:26,Dr. Iyer,54,F,Medium,Dr. Iyer
+P000004,Registration,2026-09-02 19:51:20,Desk 2,53,M,Medium,Dr. Rao
+P000004,Triage,2026-09-02 20:02:56,Nurse A,53,M,Medium,Dr. Rao
+P000004,Doctor Consultation,2026-09-02 20:24:34,Dr. Rao,53,M,Medium,Dr. Rao
+P000016,Admission,2026-09-02 20:26:53,Desk 1,54,F,Medium,Dr. Iyer
+P000004,Lab Test,2026-09-02 20:39:12,Lab Tech 2,53,M,Medium,Dr. Rao
+P000004,Doctor Consultation,2026-09-02 20:49:35,Dr. Rao,53,M,Medium,Dr. Rao
+P000004,Treatment,2026-09-02 21:12:42,Dr. Rao,53,M,Medium,Dr. Rao
+P000092,Registration,2026-09-02 21:19:49,Desk 2,30,M,Low,Dr. Iyer
+P000092,Triage,2026-09-02 21:24:48,Nurse C,30,M,Low,Dr. Iyer
+P000098,Registration,2026-09-02 21:30:09,Desk 2,30,F,Low,Dr. Mehta
+P000098,Triage,2026-09-02 21:32:57,Nurse C,30,F,Low,Dr. Mehta
+P000004,Discharge,2026-09-02 21:33:36,Desk 2,53,M,Medium,Dr. Rao
+P000092,Doctor Consultation,2026-09-02 21:38:21,Dr. Iyer,30,M,Low,Dr. Iyer
+P000064,Registration,2026-09-02 21:40:31,Desk 2,55,M,Medium,Dr. Rao
+P000098,Doctor Consultation,2026-09-02 21:41:25,Dr. Mehta,30,F,Low,Dr. Mehta
+P000064,Triage,2026-09-02 21:47:37,Nurse C,55,M,Medium,Dr. Rao
+P000064,Doctor Consultation,2026-09-02 21:49:41,Dr. Rao,55,M,Medium,Dr. Rao
+P000092,X-Ray,2026-09-02 21:51:38,Rad Tech 2,30,M,Low,Dr. Iyer
+P000098,Treatment,2026-09-02 22:10:17,Dr. Mehta,30,F,Low,Dr. Mehta
+P000092,Treatment,2026-09-02 22:13:34,Dr. Iyer,30,M,Low,Dr. Iyer
+P000064,X-Ray,2026-09-02 22:15:25,Rad Tech 2,55,M,Medium,Dr. Rao
+P000066,Registration,2026-09-02 22:28:06,Desk 2,54,F,Medium,Dr. Singh
+P000066,Triage,2026-09-02 22:35:06,Nurse A,54,F,Medium,Dr. Singh
+P000098,Discharge,2026-09-02 22:47:29,Desk 1,30,F,Low,Dr. Mehta
+P000064,Triage,2026-09-02 22:49:40,Nurse B,55,M,Medium,Dr. Rao
+P000066,Doctor Consultation,2026-09-02 22:49:49,Dr. Singh,54,F,Medium,Dr. Singh
+P000092,Discharge,2026-09-02 22:58:48,Desk 2,30,M,Low,Dr. Iyer
+P000064,Doctor Consultation,2026-09-02 23:03:47,Dr. Rao,55,M,Medium,Dr. Rao
+P000066,X-Ray,2026-09-02 23:09:56,Rad Tech 1,54,F,Medium,Dr. Singh
+P000064,Treatment,2026-09-02 23:11:32,Dr. Rao,55,M,Medium,Dr. Rao
+P000064,Discharge,2026-09-02 23:25:48,Desk 2,55,M,Medium,Dr. Rao
+P000066,Treatment,2026-09-02 23:45:40,Dr. Singh,54,F,Medium,Dr. Singh
+P000053,Registration,2026-09-02 23:50:36,Desk 1,25,M,Low,Dr. Iyer
+P000053,Triage,2026-09-02 23:53:39,Nurse C,25,M,Low,Dr. Iyer
+P000066,Discharge,2026-09-02 23:59:56,Desk 1,54,F,Medium,Dr. Singh
+P000053,Doctor Consultation,2026-09-03 00:09:46,Dr. Iyer,25,M,Low,Dr. Iyer
+P000053,Treatment,2026-09-03 00:35:09,Dr. Iyer,25,M,Low,Dr. Iyer
+P000053,Admission,2026-09-03 01:20:37,Desk 1,25,M,Low,Dr. Iyer
+P000029,Registration,2026-09-03 07:01:59,Desk 2,56,M,Medium,Dr. Mehta
+P000029,Triage,2026-09-03 07:10:50,Nurse B,56,M,Medium,Dr. Mehta
+P000029,Doctor Consultation,2026-09-03 07:18:15,Dr. Mehta,56,M,Medium,Dr. Mehta
+P000050,Registration,2026-09-03 07:25:00,Desk 2,64,F,High,Dr. Singh
+P000050,Triage,2026-09-03 07:28:02,Nurse B,64,F,High,Dr. Singh
+P000050,Doctor Consultation,2026-09-03 07:36:16,Dr. Singh,64,F,High,Dr. Singh
+P000029,X-Ray,2026-09-03 07:45:55,Rad Tech 1,56,M,Medium,Dr. Mehta
+P000050,X-Ray,2026-09-03 08:06:02,Rad Tech 2,64,F,High,Dr. Singh
+P000019,Registration,2026-09-03 08:16:02,Desk 1,26,F,High,Dr. Rao
+P000019,Triage,2026-09-03 08:24:20,Nurse B,26,F,High,Dr. Rao
+P000029,Treatment,2026-09-03 08:24:43,Dr. Mehta,56,M,Medium,Dr. Mehta
+P000096,Registration,2026-09-03 08:29:41,Desk 2,51,F,Low,Dr. Rao
+P000096,Triage,2026-09-03 08:34:51,Nurse A,51,F,Low,Dr. Rao
+P000019,Doctor Consultation,2026-09-03 08:38:38,Dr. Rao,26,F,High,Dr. Rao
+P000050,Triage,2026-09-03 08:41:28,Nurse A,64,F,High,Dr. Singh
+P000050,Doctor Consultation,2026-09-03 08:42:28,Dr. Singh,64,F,High,Dr. Singh
+P000018,Registration,2026-09-03 08:44:06,Desk 2,1,F,Medium,Dr. Mehta
+P000050,Treatment,2026-09-03 08:46:58,Dr. Singh,64,F,High,Dr. Singh
+P000002,Registration,2026-09-03 08:48:21,Desk 1,42,M,Medium,Dr. Iyer
+P000096,Doctor Consultation,2026-09-03 08:48:57,Dr. Rao,51,F,Low,Dr. Rao
+P000019,Treatment,2026-09-03 08:51:45,Dr. Rao,26,F,High,Dr. Rao
+P000018,Triage,2026-09-03 08:53:23,Nurse B,1,F,Medium,Dr. Mehta
+P000082,Registration,2026-09-03 08:53:49,Desk 1,55,M,Low,Dr. Singh
+P000002,Triage,2026-09-03 08:54:05,Nurse A,42,M,Medium,Dr. Iyer
+P000096,X-Ray,2026-09-03 08:54:51,Rad Tech 1,51,F,Low,Dr. Rao
+P000050,Discharge,2026-09-03 08:57:21,Desk 1,64,F,High,Dr. Singh
+P000018,Doctor Consultation,2026-09-03 08:59:51,Dr. Mehta,1,F,Medium,Dr. Mehta
+P000082,Triage,2026-09-03 09:01:18,Nurse A,55,M,Low,Dr. Singh
+P000002,Doctor Consultation,2026-09-03 09:05:36,Dr. Iyer,42,M,Medium,Dr. Iyer
+P000029,Admission,2026-09-03 09:07:03,Desk 1,56,M,Medium,Dr. Mehta
+P000005,Registration,2026-09-03 09:08:32,Desk 2,46,F,High,Dr. Khan
+P000019,Discharge,2026-09-03 09:09:56,Desk 2,26,F,High,Dr. Rao
+P000018,Lab Test,2026-09-03 09:11:09,Lab Tech 1,1,F,Medium,Dr. Mehta
+P000082,Doctor Consultation,2026-09-03 09:13:16,Dr. Singh,55,M,Low,Dr. Singh
+P000005,Triage,2026-09-03 09:18:45,Nurse C,46,F,High,Dr. Khan
+P000096,Treatment,2026-09-03 09:28:45,Dr. Rao,51,F,Low,Dr. Rao
+P000002,X-Ray,2026-09-03 09:43:18,Rad Tech 1,42,M,Medium,Dr. Iyer
+P000005,Doctor Consultation,2026-09-03 09:43:46,Dr. Khan,46,F,High,Dr. Khan
+P000082,X-Ray,2026-09-03 09:52:30,Rad Tech 1,55,M,Low,Dr. Singh
+P000031,Registration,2026-09-03 10:15:53,Desk 1,1,F,Low,Dr. Singh
+P000002,Triage,2026-09-03 10:21:43,Nurse C,42,M,Medium,Dr. Iyer
+P000005,X-Ray,2026-09-03 10:22:14,Rad Tech 2,46,F,High,Dr. Khan
+P000082,Treatment,2026-09-03 10:24:02,Dr. Singh,55,M,Low,Dr. Singh
+P000031,Triage,2026-09-03 10:25:00,Nurse C,1,F,Low,Dr. Singh
+P000018,Doctor Consultation,2026-09-03 10:28:11,Dr. Mehta,1,F,Medium,Dr. Mehta
+P000096,Discharge,2026-09-03 10:37:50,Desk 1,51,F,Low,Dr. Rao
+P000018,Treatment,2026-09-03 10:48:17,Dr. Mehta,1,F,Medium,Dr. Mehta
+P000002,Doctor Consultation,2026-09-03 10:51:16,Dr. Iyer,42,M,Medium,Dr. Iyer
+P000031,Doctor Consultation,2026-09-03 10:55:28,Dr. Singh,1,F,Low,Dr. Singh
+P000082,Discharge,2026-09-03 11:10:52,Desk 2,55,M,Low,Dr. Singh
+P000002,Treatment,2026-09-03 11:13:01,Dr. Iyer,42,M,Medium,Dr. Iyer
+P000005,Treatment,2026-09-03 11:14:59,Dr. Khan,46,F,High,Dr. Khan
+P000031,X-Ray,2026-09-03 11:21:27,Rad Tech 2,1,F,Low,Dr. Singh
+P000005,Discharge,2026-09-03 11:31:35,Desk 1,46,F,High,Dr. Khan
+P000018,Admission,2026-09-03 11:42:04,Desk 2,1,F,Medium,Dr. Mehta
+P000076,Registration,2026-09-03 11:49:03,Desk 2,1,F,Low,Dr. Mehta
+P000031,Triage,2026-09-03 11:55:13,Nurse B,1,F,Low,Dr. Singh
+P000076,Triage,2026-09-03 11:57:57,Nurse B,1,F,Low,Dr. Mehta
+P000076,Doctor Consultation,2026-09-03 12:16:21,Dr. Mehta,1,F,Low,Dr. Mehta
+P000002,Discharge,2026-09-03 12:17:17,Desk 2,42,M,Medium,Dr. Iyer
+P000039,Registration,2026-09-03 12:20:42,Desk 1,65,F,High,Dr. Khan
+P000031,Doctor Consultation,2026-09-03 12:26:36,Dr. Singh,1,F,Low,Dr. Singh
+P000039,Triage,2026-09-03 12:26:39,Nurse B,65,F,High,Dr. Khan
+P000010,Registration,2026-09-03 12:29:55,Desk 1,34,M,Low,Dr. Khan
+P000071,Registration,2026-09-03 12:32:09,Desk 2,38,F,Low,Dr. Mehta
+P000010,Triage,2026-09-03 12:32:42,Nurse B,34,M,Low,Dr. Khan
+P000010,Doctor Consultation,2026-09-03 12:33:42,Dr. Khan,34,M,Low,Dr. Khan
+P000039,Doctor Consultation,2026-09-03 12:35:41,Dr. Khan,65,F,High,Dr. Khan
+P000076,X-Ray,2026-09-03 12:39:28,Rad Tech 2,1,F,Low,Dr. Mehta
+P000071,Triage,2026-09-03 12:42:34,Nurse B,38,F,Low,Dr. Mehta
+P000010,X-Ray,2026-09-03 12:51:45,Rad Tech 1,34,M,Low,Dr. Khan
+P000031,Treatment,2026-09-03 12:52:01,Dr. Singh,1,F,Low,Dr. Singh
+P000010,Treatment,2026-09-03 12:58:57,Dr. Khan,34,M,Low,Dr. Khan
+P000039,Treatment,2026-09-03 13:00:37,Dr. Khan,65,F,High,Dr. Khan
+P000076,Triage,2026-09-03 13:01:03,Nurse C,1,F,Low,Dr. Mehta
+P000071,Doctor Consultation,2026-09-03 13:04:45,Dr. Mehta,38,F,Low,Dr. Mehta
+P000031,Admission,2026-09-03 13:19:07,Desk 1,1,F,Low,Dr. Singh
+P000010,Discharge,2026-09-03 13:20:24,Desk 1,34,M,Low,Dr. Khan
+P000039,Admission,2026-09-03 13:30:50,Desk 2,65,F,High,Dr. Khan
+P000071,X-Ray,2026-09-03 13:32:15,Rad Tech 2,38,F,Low,Dr. Mehta
+P000076,Doctor Consultation,2026-09-03 13:39:14,Dr. Mehta,1,F,Low,Dr. Mehta
+P000071,Treatment,2026-09-03 13:52:52,Dr. Mehta,38,F,Low,Dr. Mehta
+P000076,Treatment,2026-09-03 13:53:58,Dr. Mehta,1,F,Low,Dr. Mehta
+P000071,Discharge,2026-09-03 14:20:51,Desk 2,38,F,Low,Dr. Mehta
+P000076,Discharge,2026-09-03 14:28:56,Desk 2,1,F,Low,Dr. Mehta
+P000078,Registration,2026-09-03 14:47:43,Desk 1,41,M,Medium,Dr. Khan
+P000078,Triage,2026-09-03 14:54:59,Nurse B,41,M,Medium,Dr. Khan
+P000078,Doctor Consultation,2026-09-03 15:09:01,Dr. Khan,41,M,Medium,Dr. Khan
+P000078,Treatment,2026-09-03 15:31:55,Dr. Khan,41,M,Medium,Dr. Khan
+P000078,Discharge,2026-09-03 16:02:54,Desk 1,41,M,Medium,Dr. Khan
+P000084,Registration,2026-09-03 16:49:36,Desk 2,18,M,Low,Dr. Singh
+P000084,Triage,2026-09-03 16:55:09,Nurse C,18,M,Low,Dr. Singh
+P000084,Doctor Consultation,2026-09-03 17:09:09,Dr. Singh,18,M,Low,Dr. Singh
+P000077,Registration,2026-09-03 17:19:28,Desk 2,9,F,Low,Dr. Rao
+P000077,Triage,2026-09-03 17:26:23,Nurse B,9,F,Low,Dr. Rao
+P000084,X-Ray,2026-09-03 17:36:12,Rad Tech 2,18,M,Low,Dr. Singh
+P000077,Doctor Consultation,2026-09-03 17:49:20,Dr. Rao,9,F,Low,Dr. Rao
+P000077,Treatment,2026-09-03 18:23:13,Dr. Rao,9,F,Low,Dr. Rao
+P000084,Triage,2026-09-03 18:40:29,Nurse A,18,M,Low,Dr. Singh
+P000026,Registration,2026-09-03 18:54:57,Desk 2,65,F,Low,Dr. Iyer
+P000026,Triage,2026-09-03 19:01:20,Nurse C,65,F,Low,Dr. Iyer
+P000026,Doctor Consultation,2026-09-03 19:17:31,Dr. Iyer,65,F,Low,Dr. Iyer
+P000077,Discharge,2026-09-03 19:20:50,Desk 1,9,F,Low,Dr. Rao
+P000084,Doctor Consultation,2026-09-03 19:36:58,Dr. Singh,18,M,Low,Dr. Singh
+P000026,X-Ray,2026-09-03 19:46:25,Rad Tech 1,65,F,Low,Dr. Iyer
+P000084,Treatment,2026-09-03 20:06:11,Dr. Singh,18,M,Low,Dr. Singh
+P000026,Treatment,2026-09-03 20:24:45,Dr. Iyer,65,F,Low,Dr. Iyer
+P000084,Admission,2026-09-03 20:25:31,Desk 2,18,M,Low,Dr. Singh
+P000026,Discharge,2026-09-03 21:08:27,Desk 1,65,F,Low,Dr. Iyer
+P000093,Registration,2026-09-03 21:41:16,Desk 2,80,F,Low,Dr. Rao
+P000093,Triage,2026-09-03 21:46:02,Nurse C,80,F,Low,Dr. Rao
+P000093,Doctor Consultation,2026-09-03 22:00:01,Dr. Rao,80,F,Low,Dr. Rao
+P000093,X-Ray,2026-09-03 22:30:12,Rad Tech 1,80,F,Low,Dr. Rao
+P000093,Treatment,2026-09-03 22:45:16,Dr. Rao,80,F,Low,Dr. Rao
+P000093,Discharge,2026-09-03 23:04:40,Desk 1,80,F,Low,Dr. Rao
+P000062,Registration,2026-09-04 02:58:04,Desk 2,1,F,Low,Dr. Rao
+P000062,Triage,2026-09-04 03:04:03,Nurse C,1,F,Low,Dr. Rao
+P000062,Doctor Consultation,2026-09-04 03:11:58,Dr. Rao,1,F,Low,Dr. Rao
+P000062,X-Ray,2026-09-04 03:38:26,Rad Tech 2,1,F,Low,Dr. Rao
+P000062,Treatment,2026-09-04 04:12:13,Dr. Rao,1,F,Low,Dr. Rao
+P000062,Discharge,2026-09-04 04:43:37,Desk 2,1,F,Low,Dr. Rao
+P000038,Registration,2026-09-04 06:02:56,Desk 2,51,F,Medium,Dr. Khan
+P000038,Doctor Consultation,2026-09-04 06:08:36,Dr. Khan,51,F,Medium,Dr. Khan
+P000038,X-Ray,2026-09-04 06:17:46,Rad Tech 1,51,F,Medium,Dr. Khan
+P000073,Registration,2026-09-04 06:53:57,Desk 2,42,M,Low,Dr. Singh
+P000038,Triage,2026-09-04 06:57:43,Nurse A,51,F,Medium,Dr. Khan
+P000073,Triage,2026-09-04 07:01:10,Nurse A,42,M,Low,Dr. Singh
+P000073,Doctor Consultation,2026-09-04 07:10:52,Dr. Singh,42,M,Low,Dr. Singh
+P000073,Lab Test,2026-09-04 07:23:09,Lab Tech 1,42,M,Low,Dr. Singh
+P000038,Doctor Consultation,2026-09-04 07:27:39,Dr. Khan,51,F,Medium,Dr. Khan
+P000038,Treatment,2026-09-04 07:34:05,Dr. Khan,51,F,Medium,Dr. Khan
+P000056,Registration,2026-09-04 07:44:07,Desk 1,20,F,Low,Dr. Singh
+P000073,Doctor Consultation,2026-09-04 07:50:21,Dr. Singh,42,M,Low,Dr. Singh
+P000056,Triage,2026-09-04 07:52:19,Nurse A,20,F,Low,Dr. Singh
+P000013,Registration,2026-09-04 07:56:36,Desk 1,88,M,Medium,Dr. Mehta
+P000056,Doctor Consultation,2026-09-04 07:57:40,Dr. Singh,20,F,Low,Dr. Singh
+P000013,Triage,2026-09-04 08:01:59,Nurse C,88,M,Medium,Dr. Mehta
+P000073,Treatment,2026-09-04 08:02:24,Dr. Singh,42,M,Low,Dr. Singh
+P000038,Discharge,2026-09-04 08:07:18,Desk 1,51,F,Medium,Dr. Khan
+P000013,Doctor Consultation,2026-09-04 08:16:11,Dr. Mehta,88,M,Medium,Dr. Mehta
+P000073,Admission,2026-09-04 08:17:03,Desk 2,42,M,Low,Dr. Singh
+P000056,X-Ray,2026-09-04 08:25:24,Rad Tech 1,20,F,Low,Dr. Singh
+P000013,Lab Test,2026-09-04 08:27:46,Lab Tech 2,88,M,Medium,Dr. Mehta
+P000090,Registration,2026-09-04 08:40:46,Desk 2,38,M,Medium,Dr. Singh
+P000080,Registration,2026-09-04 08:45:28,Desk 1,14,M,Low,Dr. Rao
+P000080,Triage,2026-09-04 08:46:28,Nurse B,14,M,Low,Dr. Rao
+P000056,Treatment,2026-09-04 08:47:05,Dr. Singh,20,F,Low,Dr. Singh
+P000090,Triage,2026-09-04 08:50:15,Nurse C,38,M,Medium,Dr. Singh
+P000013,Doctor Consultation,2026-09-04 08:54:13,Dr. Mehta,88,M,Medium,Dr. Mehta
+P000080,Doctor Consultation,2026-09-04 08:56:48,Dr. Rao,14,M,Low,Dr. Rao
+P000090,Doctor Consultation,2026-09-04 09:05:38,Dr. Singh,38,M,Medium,Dr. Singh
+P000080,X-Ray,2026-09-04 09:05:52,Rad Tech 2,14,M,Low,Dr. Rao
+P000013,Treatment,2026-09-04 09:09:39,Dr. Mehta,88,M,Medium,Dr. Mehta
+P000056,Discharge,2026-09-04 09:26:41,Desk 2,20,F,Low,Dr. Singh
+P000090,Lab Test,2026-09-04 09:48:03,Lab Tech 2,38,M,Medium,Dr. Singh
+P000080,Treatment,2026-09-04 10:01:01,Dr. Rao,14,M,Low,Dr. Rao
+P000013,Discharge,2026-09-04 10:09:39,Desk 2,88,M,Medium,Dr. Mehta
+P000080,Discharge,2026-09-04 10:34:14,Desk 2,14,M,Low,Dr. Rao
+P000090,Doctor Consultation,2026-09-04 10:40:55,Dr. Singh,38,M,Medium,Dr. Singh
+P000090,Treatment,2026-09-04 11:08:05,Dr. Singh,38,M,Medium,Dr. Singh
+P000090,Discharge,2026-09-04 11:51:35,Desk 2,38,M,Medium,Dr. Singh
+P000043,Registration,2026-09-04 12:20:55,Desk 1,18,F,Medium,Dr. Singh
+P000043,Triage,2026-09-04 12:27:49,Nurse A,18,F,Medium,Dr. Singh
+P000043,Doctor Consultation,2026-09-04 12:38:53,Dr. Singh,18,F,Medium,Dr. Singh
+P000043,Lab Test,2026-09-04 12:56:20,Lab Tech 2,18,F,Medium,Dr. Singh
+P000043,Doctor Consultation,2026-09-04 13:24:14,Dr. Singh,18,F,Medium,Dr. Singh
+P000043,Treatment,2026-09-04 13:28:43,Dr. Singh,18,F,Medium,Dr. Singh
+P000043,Discharge,2026-09-04 13:45:20,Desk 1,18,F,Medium,Dr. Singh
+P000032,Registration,2026-09-04 15:15:44,Desk 2,25,M,Low,Dr. Khan
+P000032,Triage,2026-09-04 15:20:02,Nurse A,25,M,Low,Dr. Khan
+P000032,Doctor Consultation,2026-09-04 15:29:30,Dr. Khan,25,M,Low,Dr. Khan
+P000032,X-Ray,2026-09-04 15:47:16,Rad Tech 2,25,M,Low,Dr. Khan
+P000032,Treatment,2026-09-04 16:22:03,Dr. Khan,25,M,Low,Dr. Khan
+P000032,Discharge,2026-09-04 16:34:19,Desk 2,25,M,Low,Dr. Khan
+P000095,Registration,2026-09-04 20:11:59,Desk 1,3,M,High,Dr. Mehta
+P000095,Triage,2026-09-04 20:20:23,Nurse C,3,M,High,Dr. Mehta
+P000095,Doctor Consultation,2026-09-04 20:35:17,Dr. Mehta,3,M,High,Dr. Mehta
+P000024,Registration,2026-09-04 20:47:55,Desk 2,15,F,Medium,Dr. Singh
+P000024,Triage,2026-09-04 20:51:25,Nurse A,15,F,Medium,Dr. Singh
+P000024,Doctor Consultation,2026-09-04 21:09:01,Dr. Singh,15,F,Medium,Dr. Singh
+P000095,Lab Test,2026-09-04 21:13:01,Lab Tech 1,3,M,High,Dr. Mehta
+P000024,Treatment,2026-09-04 21:23:34,Dr. Singh,15,F,Medium,Dr. Singh
+P000095,Doctor Consultation,2026-09-04 21:40:30,Dr. Mehta,3,M,High,Dr. Mehta
+P000045,Registration,2026-09-04 21:40:45,Desk 2,24,M,High,Dr. Singh
+P000045,Triage,2026-09-04 21:49:52,Nurse A,24,M,High,Dr. Singh
+P000024,Discharge,2026-09-04 21:54:26,Desk 1,15,F,Medium,Dr. Singh
+P000095,Treatment,2026-09-04 22:00:23,Dr. Mehta,3,M,High,Dr. Mehta
+P000045,Doctor Consultation,2026-09-04 22:01:38,Dr. Singh,24,M,High,Dr. Singh
+P000045,Lab Test,2026-09-04 22:17:41,Lab Tech 1,24,M,High,Dr. Singh
+P000095,Discharge,2026-09-04 22:25:40,Desk 2,3,M,High,Dr. Mehta
+P000045,Doctor Consultation,2026-09-04 22:52:23,Dr. Singh,24,M,High,Dr. Singh
+P000045,Treatment,2026-09-04 23:00:59,Dr. Singh,24,M,High,Dr. Singh
+P000045,Discharge,2026-09-04 23:44:50,Desk 2,24,M,High,Dr. Singh
+P000055,Registration,2026-09-05 05:50:58,Desk 2,22,M,Low,Dr. Mehta
+P000055,Triage,2026-09-05 05:57:41,Nurse A,22,M,Low,Dr. Mehta
+P000055,Doctor Consultation,2026-09-05 06:19:03,Dr. Mehta,22,M,Low,Dr. Mehta
+P000055,X-Ray,2026-09-05 06:42:27,Rad Tech 1,22,M,Low,Dr. Mehta
+P000055,Triage,2026-09-05 06:45:34,Nurse C,22,M,Low,Dr. Mehta
+P000063,Registration,2026-09-05 06:55:19,Desk 2,78,M,Low,Dr. Khan
+P000063,Triage,2026-09-05 07:03:45,Nurse A,78,M,Low,Dr. Khan
+P000055,Doctor Consultation,2026-09-05 07:17:34,Dr. Mehta,22,M,Low,Dr. Mehta
+P000063,Doctor Consultation,2026-09-05 07:26:17,Dr. Khan,78,M,Low,Dr. Khan
+P000055,Treatment,2026-09-05 07:34:26,Dr. Mehta,22,M,Low,Dr. Mehta
+P000063,X-Ray,2026-09-05 07:51:31,Rad Tech 1,78,M,Low,Dr. Khan
+P000055,Discharge,2026-09-05 08:09:26,Desk 2,22,M,Low,Dr. Mehta
+P000079,Registration,2026-09-05 08:23:25,Desk 2,15,F,Low,Dr. Rao
+P000063,Treatment,2026-09-05 08:24:13,Dr. Khan,78,M,Low,Dr. Khan
+P000079,Triage,2026-09-05 08:27:11,Nurse A,15,F,Low,Dr. Rao
+P000079,Doctor Consultation,2026-09-05 08:43:31,Dr. Rao,15,F,Low,Dr. Rao
+P000063,Discharge,2026-09-05 08:48:01,Desk 1,78,M,Low,Dr. Khan
+P000079,X-Ray,2026-09-05 09:03:04,Rad Tech 2,15,F,Low,Dr. Rao
+P000009,Registration,2026-09-05 09:04:45,Desk 1,40,M,Medium,Dr. Mehta
+P000009,Triage,2026-09-05 09:15:02,Nurse A,40,M,Medium,Dr. Mehta
+P000007,Registration,2026-09-05 09:23:48,Desk 1,35,F,Medium,Dr. Singh
+P000007,Triage,2026-09-05 09:29:21,Nurse A,35,F,Medium,Dr. Singh
+P000079,Treatment,2026-09-05 09:47:21,Dr. Rao,15,F,Low,Dr. Rao
+P000007,Doctor Consultation,2026-09-05 09:50:48,Dr. Singh,35,F,Medium,Dr. Singh
+P000009,Doctor Consultation,2026-09-05 09:51:57,Dr. Mehta,40,M,Medium,Dr. Mehta
+P000007,X-Ray,2026-09-05 10:15:16,Rad Tech 2,35,F,Medium,Dr. Singh
+P000009,X-Ray,2026-09-05 10:17:30,Rad Tech 1,40,M,Medium,Dr. Mehta
+P000079,Discharge,2026-09-05 10:32:15,Desk 2,15,F,Low,Dr. Rao
+P000075,Registration,2026-09-05 10:41:11,Desk 2,46,F,Low,Dr. Iyer
+P000075,Triage,2026-09-05 10:46:54,Nurse B,46,F,Low,Dr. Iyer
+P000007,Treatment,2026-09-05 10:48:31,Dr. Singh,35,F,Medium,Dr. Singh
+P000009,Treatment,2026-09-05 10:56:47,Dr. Mehta,40,M,Medium,Dr. Mehta
+P000075,Doctor Consultation,2026-09-05 11:03:29,Dr. Iyer,46,F,Low,Dr. Iyer
+P000068,Registration,2026-09-05 11:23:19,Desk 1,22,M,Medium,Dr. Khan
+P000075,X-Ray,2026-09-05 11:24:43,Rad Tech 2,46,F,Low,Dr. Iyer
+P000068,Triage,2026-09-05 11:28:57,Nurse B,22,M,Medium,Dr. Khan
+P000007,Discharge,2026-09-05 11:35:03,Desk 1,35,F,Medium,Dr. Singh
+P000009,Discharge,2026-09-05 11:36:51,Desk 2,40,M,Medium,Dr. Mehta
+P000068,Doctor Consultation,2026-09-05 11:59:31,Dr. Khan,22,M,Medium,Dr. Khan
+P000075,Treatment,2026-09-05 12:11:15,Dr. Iyer,46,F,Low,Dr. Iyer
+P000041,Registration,2026-09-05 12:14:53,Desk 1,31,M,Low,Dr. Rao
+P000041,Triage,2026-09-05 12:19:43,Nurse B,31,M,Low,Dr. Rao
+P000068,X-Ray,2026-09-05 12:28:32,Rad Tech 1,22,M,Medium,Dr. Khan
+P000041,Doctor Consultation,2026-09-05 12:35:26,Dr. Rao,31,M,Low,Dr. Rao
+P000075,Discharge,2026-09-05 12:43:06,Desk 2,46,F,Low,Dr. Iyer
+P000068,Treatment,2026-09-05 12:58:14,Dr. Khan,22,M,Medium,Dr. Khan
+P000041,Treatment,2026-09-05 13:01:29,Dr. Rao,31,M,Low,Dr. Rao
+P000041,Discharge,2026-09-05 13:27:24,Desk 2,31,M,Low,Dr. Rao
+P000089,Registration,2026-09-05 13:36:19,Desk 2,95,F,Medium,Dr. Singh
+P000068,Discharge,2026-09-05 13:36:33,Desk 1,22,M,Medium,Dr. Khan
+P000089,Triage,2026-09-05 13:43:14,Nurse B,95,F,Medium,Dr. Singh
+P000100,Registration,2026-09-05 13:51:19,Desk 1,50,F,Low,Dr. Rao
+P000089,Doctor Consultation,2026-09-05 13:52:58,Dr. Singh,95,F,Medium,Dr. Singh
+P000100,Triage,2026-09-05 13:54:51,Nurse A,50,F,Low,Dr. Rao
+P000086,Registration,2026-09-05 13:56:19,Desk 2,58,M,Medium,Dr. Khan
+P000089,Treatment,2026-09-05 14:00:37,Dr. Singh,95,F,Medium,Dr. Singh
+P000086,Triage,2026-09-05 14:08:02,Nurse A,58,M,Medium,Dr. Khan
+P000100,Doctor Consultation,2026-09-05 14:09:38,Dr. Rao,50,F,Low,Dr. Rao
+P000100,X-Ray,2026-09-05 14:19:08,Rad Tech 2,50,F,Low,Dr. Rao
+P000089,Admission,2026-09-05 14:19:52,Desk 2,95,F,Medium,Dr. Singh
+P000086,Doctor Consultation,2026-09-05 14:25:08,Dr. Khan,58,M,Medium,Dr. Khan
+P000083,Registration,2026-09-05 14:32:41,Desk 1,51,F,Low,Dr. Iyer
+P000083,Triage,2026-09-05 14:37:10,Nurse C,51,F,Low,Dr. Iyer
+P000100,Treatment,2026-09-05 14:40:18,Dr. Rao,50,F,Low,Dr. Rao
+P000086,X-Ray,2026-09-05 14:46:45,Rad Tech 2,58,M,Medium,Dr. Khan
+P000100,Discharge,2026-09-05 14:56:03,Desk 2,50,F,Low,Dr. Rao
+P000083,Doctor Consultation,2026-09-05 14:57:09,Dr. Iyer,51,F,Low,Dr. Iyer
+P000086,Treatment,2026-09-05 15:20:52,Dr. Khan,58,M,Medium,Dr. Khan
+P000083,Treatment,2026-09-05 15:26:49,Dr. Iyer,51,F,Low,Dr. Iyer
+P000086,Admission,2026-09-05 15:46:15,Desk 1,58,M,Medium,Dr. Khan
+P000083,Discharge,2026-09-05 16:05:19,Desk 1,51,F,Low,Dr. Iyer
+P000027,Registration,2026-09-05 17:05:41,Desk 2,68,M,High,Dr. Singh
+P000027,Triage,2026-09-05 17:10:44,Nurse B,68,M,High,Dr. Singh
+P000067,Registration,2026-09-05 17:18:16,Desk 1,66,F,Low,Dr. Rao
+P000067,Triage,2026-09-05 17:26:16,Nurse B,66,F,Low,Dr. Rao
+P000027,Doctor Consultation,2026-09-05 17:36:40,Dr. Singh,68,M,High,Dr. Singh
+P000022,Registration,2026-09-05 17:39:21,Desk 1,3,M,Medium,Dr. Iyer
+P000022,Triage,2026-09-05 17:48:39,Nurse A,3,M,Medium,Dr. Iyer
+P000067,Doctor Consultation,2026-09-05 17:57:08,Dr. Rao,66,F,Low,Dr. Rao
+P000042,Registration,2026-09-05 18:08:55,Desk 1,43,F,Low,Dr. Singh
+P000022,Doctor Consultation,2026-09-05 18:10:39,Dr. Iyer,3,M,Medium,Dr. Iyer
+P000027,X-Ray,2026-09-05 18:14:19,Rad Tech 2,68,M,High,Dr. Singh
+P000042,Triage,2026-09-05 18:21:33,Nurse B,43,F,Low,Dr. Singh
+P000067,Lab Test,2026-09-05 18:24:49,Lab Tech 1,66,F,Low,Dr. Rao
+P000074,Registration,2026-09-05 18:32:35,Desk 1,58,M,High,Dr. Singh
+P000022,X-Ray,2026-09-05 18:37:36,Rad Tech 1,3,M,Medium,Dr. Iyer
+P000042,Doctor Consultation,2026-09-05 18:39:53,Dr. Singh,43,F,Low,Dr. Singh
+P000074,Triage,2026-09-05 18:40:05,Nurse B,58,M,High,Dr. Singh
+P000027,Treatment,2026-09-05 18:46:28,Dr. Singh,68,M,High,Dr. Singh
+P000074,Doctor Consultation,2026-09-05 19:08:23,Dr. Singh,58,M,High,Dr. Singh
+P000042,X-Ray,2026-09-05 19:23:47,Rad Tech 1,43,F,Low,Dr. Singh
+P000067,Doctor Consultation,2026-09-05 19:39:50,Dr. Rao,66,F,Low,Dr. Rao
+P000074,Treatment,2026-09-05 19:40:21,Dr. Singh,58,M,High,Dr. Singh
+P000022,Treatment,2026-09-05 19:45:08,Dr. Iyer,3,M,Medium,Dr. Iyer
+P000027,Discharge,2026-09-05 19:52:27,Desk 2,68,M,High,Dr. Singh
+P000067,Treatment,2026-09-05 20:01:42,Dr. Rao,66,F,Low,Dr. Rao
+P000042,Treatment,2026-09-05 20:02:04,Dr. Singh,43,F,Low,Dr. Singh
+P000074,Discharge,2026-09-05 20:30:31,Desk 1,58,M,High,Dr. Singh
+P000042,Discharge,2026-09-05 20:41:57,Desk 1,43,F,Low,Dr. Singh
+P000067,Discharge,2026-09-05 20:42:33,Desk 1,66,F,Low,Dr. Rao
+P000022,Discharge,2026-09-05 20:43:01,Desk 1,3,M,Medium,Dr. Iyer
+P000044,Registration,2026-09-05 22:21:55,Desk 1,63,F,High,Dr. Mehta
+P000044,Triage,2026-09-05 22:29:44,Nurse B,63,F,High,Dr. Mehta
+P000044,Doctor Consultation,2026-09-05 22:40:08,Dr. Mehta,63,F,High,Dr. Mehta
+P000014,Registration,2026-09-05 23:04:34,Desk 1,1,M,Low,Dr. Singh
+P000044,Treatment,2026-09-05 23:04:35,Dr. Mehta,63,F,High,Dr. Mehta
+P000014,Triage,2026-09-05 23:12:01,Nurse A,1,M,Low,Dr. Singh
+P000044,Admission,2026-09-05 23:35:13,Desk 2,63,F,High,Dr. Mehta
+P000014,Doctor Consultation,2026-09-05 23:38:20,Dr. Singh,1,M,Low,Dr. Singh
+P000014,Treatment,2026-09-05 23:51:37,Dr. Singh,1,M,Low,Dr. Singh
+P000014,Discharge,2026-09-06 00:34:04,Desk 1,1,M,Low,Dr. Singh
+P000036,Registration,2026-09-06 06:15:11,Desk 1,70,M,Medium,Dr. Iyer
+P000036,Triage,2026-09-06 06:22:32,Nurse B,70,M,Medium,Dr. Iyer
+P000036,Doctor Consultation,2026-09-06 06:42:39,Dr. Iyer,70,M,Medium,Dr. Iyer
+P000036,Treatment,2026-09-06 07:01:10,Dr. Iyer,70,M,Medium,Dr. Iyer
+P000036,Discharge,2026-09-06 07:39:35,Desk 1,70,M,Medium,Dr. Iyer
+P000001,Registration,2026-09-06 07:47:57,Desk 1,38,F,Low,Dr. Mehta
+P000001,Triage,2026-09-06 07:53:32,Nurse A,38,F,Low,Dr. Mehta
+P000001,Doctor Consultation,2026-09-06 08:12:40,Dr. Mehta,38,F,Low,Dr. Mehta
+P000001,X-Ray,2026-09-06 08:33:43,Rad Tech 1,38,F,Low,Dr. Mehta
+P000001,Treatment,2026-09-06 08:44:00,Dr. Mehta,38,F,Low,Dr. Mehta
+P000017,Registration,2026-09-06 09:06:22,Desk 2,62,M,High,Dr. Mehta
+P000001,Discharge,2026-09-06 09:06:52,Desk 2,38,F,Low,Dr. Mehta
+P000017,Triage,2026-09-06 09:16:33,Nurse C,62,M,High,Dr. Mehta
+P000017,Doctor Consultation,2026-09-06 09:48:22,Dr. Mehta,62,M,High,Dr. Mehta
+P000017,Treatment,2026-09-06 10:35:35,Dr. Mehta,62,M,High,Dr. Mehta
+P000060,Registration,2026-09-06 10:36:38,Desk 1,56,F,Low,Dr. Iyer
+P000060,Triage,2026-09-06 10:47:16,Nurse A,56,F,Low,Dr. Iyer
+P000060,Doctor Consultation,2026-09-06 11:08:56,Dr. Iyer,56,F,Low,Dr. Iyer
+P000087,Registration,2026-09-06 11:25:23,Desk 1,26,F,Low,Dr. Iyer
+P000087,Triage,2026-09-06 11:32:27,Nurse C,26,F,Low,Dr. Iyer
+P000017,Admission,2026-09-06 11:32:49,Desk 2,62,M,High,Dr. Mehta
+P000060,Treatment,2026-09-06 11:38:00,Dr. Iyer,56,F,Low,Dr. Iyer
+P000087,Doctor Consultation,2026-09-06 12:01:00,Dr. Iyer,26,F,Low,Dr. Iyer
+P000051,Registration,2026-09-06 12:08:02,Desk 1,23,F,High,Dr. Iyer
+P000051,Triage,2026-09-06 12:11:18,Nurse B,23,F,High,Dr. Iyer
+P000049,Registration,2026-09-06 12:12:08,Desk 2,64,M,High,Dr. Iyer
+P000049,Triage,2026-09-06 12:13:08,Nurse B,64,M,High,Dr. Iyer
+P000060,Discharge,2026-09-06 12:17:30,Desk 2,56,F,Low,Dr. Iyer
+P000087,X-Ray,2026-09-06 12:19:06,Rad Tech 2,26,F,Low,Dr. Iyer
+P000049,Doctor Consultation,2026-09-06 12:25:34,Dr. Iyer,64,M,High,Dr. Iyer
+P000051,Doctor Consultation,2026-09-06 12:29:34,Dr. Iyer,23,F,High,Dr. Iyer
+P000051,X-Ray,2026-09-06 12:53:28,Rad Tech 2,23,F,High,Dr. Iyer
+P000087,Treatment,2026-09-06 12:53:42,Dr. Iyer,26,F,Low,Dr. Iyer
+P000049,Lab Test,2026-09-06 13:02:03,Lab Tech 2,64,M,High,Dr. Iyer
+P000051,Treatment,2026-09-06 13:04:12,Dr. Iyer,23,F,High,Dr. Iyer
+P000087,Admission,2026-09-06 13:18:52,Desk 2,26,F,Low,Dr. Iyer
+P000049,Doctor Consultation,2026-09-06 13:19:45,Dr. Iyer,64,M,High,Dr. Iyer
+P000049,Treatment,2026-09-06 13:37:01,Dr. Iyer,64,M,High,Dr. Iyer
+P000051,Discharge,2026-09-06 13:39:20,Desk 1,23,F,High,Dr. Iyer
+P000049,Admission,2026-09-06 13:54:18,Desk 1,64,M,High,Dr. Iyer
+P000012,Registration,2026-09-06 17:09:12,Desk 2,59,F,Low,Dr. Singh
+P000012,Triage,2026-09-06 17:18:37,Nurse A,59,F,Low,Dr. Singh
+P000061,Registration,2026-09-06 17:31:33,Desk 2,47,F,Low,Dr. Iyer
+P000012,Doctor Consultation,2026-09-06 17:36:02,Dr. Singh,59,F,Low,Dr. Singh
+P000061,Triage,2026-09-06 17:43:57,Nurse B,47,F,Low,Dr. Iyer
+P000020,Registration,2026-09-06 17:47:47,Desk 1,61,M,Medium,Dr. Singh
+P000020,Triage,2026-09-06 17:56:46,Nurse B,61,M,Medium,Dr. Singh
+P000012,Lab Test,2026-09-06 18:03:15,Lab Tech 2,59,F,Low,Dr. Singh
+P000061,Doctor Consultation,2026-09-06 18:09:57,Dr. Iyer,47,F,Low,Dr. Iyer
+P000021,Registration,2026-09-06 18:11:39,Desk 2,72,F,Medium,Dr. Khan
+P000021,Triage,2026-09-06 18:17:28,Nurse A,72,F,Medium,Dr. Khan
+P000020,Doctor Consultation,2026-09-06 18:22:30,Dr. Singh,61,M,Medium,Dr. Singh
+P000012,Doctor Consultation,2026-09-06 18:31:51,Dr. Singh,59,F,Low,Dr. Singh
+P000061,X-Ray,2026-09-06 18:41:42,Rad Tech 1,47,F,Low,Dr. Iyer
+P000020,X-Ray,2026-09-06 18:46:03,Rad Tech 2,61,M,Medium,Dr. Singh
+P000021,Doctor Consultation,2026-09-06 18:47:47,Dr. Khan,72,F,Medium,Dr. Khan
+P000012,Treatment,2026-09-06 18:55:39,Dr. Singh,59,F,Low,Dr. Singh
+P000059,Registration,2026-09-06 18:58:21,Desk 2,17,F,Low,Dr. Iyer
+P000059,Doctor Consultation,2026-09-06 19:05:43,Dr. Iyer,17,F,Low,Dr. Iyer
+P000021,Treatment,2026-09-06 19:10:15,Dr. Khan,72,F,Medium,Dr. Khan
+P000020,Treatment,2026-09-06 19:15:44,Dr. Singh,61,M,Medium,Dr. Singh
+P000061,Triage,2026-09-06 19:23:33,Nurse B,47,F,Low,Dr. Iyer
+P000059,X-Ray,2026-09-06 19:44:47,Rad Tech 1,17,F,Low,Dr. Iyer
+P000061,Doctor Consultation,2026-09-06 19:46:12,Dr. Iyer,47,F,Low,Dr. Iyer
+P000020,Discharge,2026-09-06 19:55:12,Desk 1,61,M,Medium,Dr. Singh
+P000012,Admission,2026-09-06 20:00:25,Desk 1,59,F,Low,Dr. Singh
+P000021,Discharge,2026-09-06 20:05:00,Desk 1,72,F,Medium,Dr. Khan
+P000061,Treatment,2026-09-06 20:10:08,Dr. Iyer,47,F,Low,Dr. Iyer
+P000059,Treatment,2026-09-06 20:15:22,Dr. Iyer,17,F,Low,Dr. Iyer
+P000061,Discharge,2026-09-06 20:32:40,Desk 1,47,F,Low,Dr. Iyer
+P000059,Discharge,2026-09-06 20:57:44,Desk 2,17,F,Low,Dr. Iyer
+P000057,Registration,2026-09-07 08:03:37,Desk 2,79,M,Low,Dr. Iyer
+P000057,Triage,2026-09-07 08:11:28,Nurse B,79,M,Low,Dr. Iyer
+P000057,Doctor Consultation,2026-09-07 08:21:05,Dr. Iyer,79,M,Low,Dr. Iyer
+P000088,Registration,2026-09-07 08:38:32,Desk 2,34,F,Medium,Dr. Iyer
+P000088,Triage,2026-09-07 08:43:48,Nurse B,34,F,Medium,Dr. Iyer
+P000057,Treatment,2026-09-07 08:50:30,Dr. Iyer,79,M,Low,Dr. Iyer
+P000088,Doctor Consultation,2026-09-07 08:58:48,Dr. Iyer,34,F,Medium,Dr. Iyer
+P000057,Discharge,2026-09-07 09:14:48,Desk 2,79,M,Low,Dr. Iyer
+P000088,X-Ray,2026-09-07 09:22:01,Rad Tech 1,34,F,Medium,Dr. Iyer
+P000088,Treatment,2026-09-07 09:50:36,Dr. Iyer,34,F,Medium,Dr. Iyer
+P000006,Registration,2026-09-07 10:41:21,Desk 1,31,M,Medium,Dr. Singh
+P000065,Registration,2026-09-07 10:41:55,Desk 1,23,F,Low,Dr. Iyer
+P000006,Doctor Consultation,2026-09-07 10:50:34,Dr. Singh,31,M,Medium,Dr. Singh
+P000065,Triage,2026-09-07 10:51:25,Nurse C,23,F,Low,Dr. Iyer
+P000088,Discharge,2026-09-07 10:57:45,Desk 2,34,F,Medium,Dr. Iyer
+P000065,Doctor Consultation,2026-09-07 11:09:30,Dr. Iyer,23,F,Low,Dr. Iyer
+P000006,Treatment,2026-09-07 11:27:05,Dr. Singh,31,M,Medium,Dr. Singh
+P000070,Registration,2026-09-07 11:33:26,Desk 1,6,F,Low,Dr. Iyer
+P000085,Registration,2026-09-07 11:35:06,Desk 2,46,F,High,Dr. Mehta
+P000085,Triage,2026-09-07 11:44:45,Nurse A,46,F,High,Dr. Mehta
+P000070,Triage,2026-09-07 11:47:19,Nurse C,6,F,Low,Dr. Iyer
+P000065,Treatment,2026-09-07 11:48:30,Dr. Iyer,23,F,Low,Dr. Iyer
+P000085,Doctor Consultation,2026-09-07 12:11:49,Dr. Mehta,46,F,High,Dr. Mehta
+P000070,Doctor Consultation,2026-09-07 12:14:15,Dr. Iyer,6,F,Low,Dr. Iyer
+P000006,Discharge,2026-09-07 12:35:06,Desk 1,31,M,Medium,Dr. Singh
+P000085,X-Ray,2026-09-07 12:37:15,Rad Tech 2,46,F,High,Dr. Mehta
+P000070,Treatment,2026-09-07 12:38:54,Dr. Iyer,6,F,Low,Dr. Iyer
+P000065,Discharge,2026-09-07 13:01:54,Desk 1,23,F,Low,Dr. Iyer
+P000070,Discharge,2026-09-07 13:03:38,Desk 1,6,F,Low,Dr. Iyer
+P000085,Treatment,2026-09-07 13:06:59,Dr. Mehta,46,F,High,Dr. Mehta
+P000081,Registration,2026-09-07 13:23:35,Desk 2,30,M,Medium,Dr. Mehta
+P000081,Triage,2026-09-07 13:29:30,Nurse C,30,M,Medium,Dr. Mehta
+P000085,Discharge,2026-09-07 13:42:44,Desk 2,46,F,High,Dr. Mehta
+P000081,Doctor Consultation,2026-09-07 13:53:03,Dr. Mehta,30,M,Medium,Dr. Mehta
+P000072,Registration,2026-09-07 13:53:08,Desk 2,45,M,Low,Dr. Iyer
+P000072,Triage,2026-09-07 13:58:53,Nurse B,45,M,Low,Dr. Iyer
+P000040,Registration,2026-09-07 14:00:42,Desk 2,35,F,Low,Dr. Khan
+P000040,Triage,2026-09-07 14:05:22,Nurse B,35,F,Low,Dr. Khan
+P000008,Registration,2026-09-07 14:08:08,Desk 2,49,M,Medium,Dr. Rao
+P000072,Doctor Consultation,2026-09-07 14:14:05,Dr. Iyer,45,M,Low,Dr. Iyer
+P000008,Triage,2026-09-07 14:15:29,Nurse C,49,M,Medium,Dr. Rao
+P000040,Doctor Consultation,2026-09-07 14:22:22,Dr. Khan,35,F,Low,Dr. Khan
+P000081,X-Ray,2026-09-07 14:25:09,Rad Tech 2,30,M,Medium,Dr. Mehta
+P000008,Doctor Consultation,2026-09-07 14:29:18,Dr. Rao,49,M,Medium,Dr. Rao
+P000040,X-Ray,2026-09-07 14:32:51,Rad Tech 1,35,F,Low,Dr. Khan
+P000072,Treatment,2026-09-07 14:35:04,Dr. Iyer,45,M,Low,Dr. Iyer
+P000008,X-Ray,2026-09-07 14:44:25,Rad Tech 1,49,M,Medium,Dr. Rao
+P000040,Treatment,2026-09-07 14:45:52,Dr. Khan,35,F,Low,Dr. Khan
+P000081,Treatment,2026-09-07 15:06:05,Dr. Mehta,30,M,Medium,Dr. Mehta
+P000072,Discharge,2026-09-07 15:11:44,Desk 2,45,M,Low,Dr. Iyer
+P000008,Triage,2026-09-07 15:12:37,Nurse C,49,M,Medium,Dr. Rao
+P000040,Discharge,2026-09-07 15:13:55,Desk 1,35,F,Low,Dr. Khan
+P000008,Doctor Consultation,2026-09-07 15:33:09,Dr. Rao,49,M,Medium,Dr. Rao
+P000081,Discharge,2026-09-07 15:36:02,Desk 1,30,M,Medium,Dr. Mehta
+P000008,Treatment,2026-09-07 15:42:56,Dr. Rao,49,M,Medium,Dr. Rao
+P000008,Discharge,2026-09-07 16:06:53,Desk 2,49,M,Medium,Dr. Rao
+P000048,Registration,2026-09-07 18:38:51,Desk 2,37,F,Medium,Dr. Iyer
+P000048,Triage,2026-09-07 18:48:45,Nurse C,37,F,Medium,Dr. Iyer
+P000048,Doctor Consultation,2026-09-07 19:16:34,Dr. Iyer,37,F,Medium,Dr. Iyer
+P000048,X-Ray,2026-09-07 19:49:53,Rad Tech 1,37,F,Medium,Dr. Iyer
+P000023,Registration,2026-09-07 19:56:06,Desk 2,37,F,Low,Dr. Rao
+P000023,Triage,2026-09-07 20:03:23,Nurse C,37,F,Low,Dr. Rao
+P000048,Treatment,2026-09-07 20:14:52,Dr. Iyer,37,F,Medium,Dr. Iyer
+P000023,Doctor Consultation,2026-09-07 20:16:28,Dr. Rao,37,F,Low,Dr. Rao
+P000023,X-Ray,2026-09-07 20:36:10,Rad Tech 1,37,F,Low,Dr. Rao
+P000048,Discharge,2026-09-07 20:40:11,Desk 1,37,F,Medium,Dr. Iyer
+P000023,Treatment,2026-09-07 20:43:52,Dr. Rao,37,F,Low,Dr. Rao
+P000023,Discharge,2026-09-07 21:19:41,Desk 2,37,F,Low,Dr. Rao
