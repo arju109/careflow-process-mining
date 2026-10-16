@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: careflow_raw
+    description: "Raw EHR event log exactly as produced by the simulator (all text)."
+    schema: "{{ var('raw_schema') }}"
+    tables:
+      - name: raw_ehr_events
