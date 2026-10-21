@@ -1,12 +1,27 @@
 source,target,count,cases,pct_of_cases,pct_of_source_cases,avg_minutes,median_minutes,rework
-Triage,Doctor Consultation,112,98,98.0,100.0,20.0,17.5,False
-Registration,Triage,97,97,97.0,97.0,7.1,7.2,False
-Treatment,Discharge,82,82,82.0,82.0,36.4,35.8,False
-Doctor Consultation,Treatment,60,60,60.0,60.0,20.8,20.9,False
-Doctor Consultation,X-Ray,55,55,55.0,55.0,25.4,25.7,False
-X-Ray,Treatment,40,40,40.0,72.7,30.8,32.4,False
-Treatment,Admission,18,18,18.0,18.0,32.3,28.4,False
-X-Ray,Triage,15,15,15.0,27.3,34.2,34.4,True
-Doctor Consultation,Lab Test,11,11,11.0,11.0,23.2,17.4,False
-Lab Test,Doctor Consultation,11,11,11.0,100.0,36.8,27.9,False
-Registration,Doctor Consultation,3,3,3.0,3.0,7.4,7.4,False
+Triage,Doctor Consultation,5803,4766,95.3,98.2,22.1,20.3,False
+Registration,Triage,4709,4709,94.2,96.2,7.6,7.5,False
+Treatment,Discharge,4087,4087,81.7,83.4,35.5,34.9,False
+Doctor Consultation,Treatment,3045,3045,60.9,61.9,21.1,19.9,False
+Doctor Consultation,X-Ray,2902,2902,58.0,59.0,25.3,25.0,False
+X-Ray,Treatment,1794,1794,35.9,60.5,30.7,30.7,False
+X-Ray,Triage,1102,1102,22.0,37.2,30.3,30.1,True
+Treatment,Admission,713,713,14.3,14.6,36.5,35.9,False
+Lab Test,Doctor Consultation,555,555,11.1,98.1,44.1,43.0,False
+Doctor Consultation,Lab Test,553,553,11.1,11.2,25.2,25.0,False
+Registration,Doctor Consultation,180,180,3.6,3.7,16.3,10.4,False
+X-Ray,X-Ray,72,72,1.4,2.4,33.9,33.6,False
+Triage,X-Ray,61,61,1.2,1.3,47.7,46.9,False
+Doctor Consultation,Discharge,47,47,0.9,1.0,55.5,53.2,False
+Triage,Treatment,45,45,0.9,0.9,46.5,48.0,False
+X-Ray,Discharge,30,30,0.6,1.0,66.9,63.2,False
+X-Ray,Doctor Consultation,26,26,0.5,0.9,67.9,69.5,False
+Doctor Consultation,Triage,15,15,0.3,0.3,52.6,47.0,True
+Doctor Consultation,Doctor Consultation,14,14,0.3,0.3,61.1,49.0,False
+Triage,Lab Test,13,13,0.3,0.3,44.1,46.8,False
+X-Ray,Admission,11,11,0.2,0.4,69.5,67.3,False
+Lab Test,Treatment,11,11,0.2,1.9,62.1,62.4,False
+Doctor Consultation,Admission,8,8,0.2,0.2,48.4,45.2,False
+Registration,Treatment,3,3,0.1,0.1,50.9,51.4,False
+Registration,X-Ray,2,2,0.0,0.0,46.5,46.5,False
+Triage,Discharge,1,1,0.0,0.0,54.6,54.6,False
