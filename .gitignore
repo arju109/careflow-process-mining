@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+.venv/
+*.duckdb
+data/raw_ehr_events*.csv
+
+dbt/target/
+dbt/logs/
+data/event_log.csv

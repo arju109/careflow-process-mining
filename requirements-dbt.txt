@@ -1,0 +1,8 @@
+# Warehouse + dbt packages for the free local (DuckDB) setup.
+# Use Python 3.12 or 3.13 in a virtual environment (see docs/dbt_duckdb_setup.md).
+duckdb
+dbt-core
+dbt-duckdb
+
+# Only if you also run against BigQuery:
+# dbt-bigquery

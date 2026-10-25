@@ -1,0 +1,16 @@
+# No secrets in this file: DuckDB is a local file, BigQuery uses your own
+# gcloud login (oauth). Run dbt from inside the dbt/ folder.
+careflow:
+  target: duckdb
+  outputs:
+    duckdb:
+      type: duckdb
+      path: ../careflow.duckdb
+      threads: 1
+    bigquery:
+      type: bigquery
+      method: oauth
+      project: YOUR_PROJECT_ID
+      dataset: careflow_dbt
+      location: US
+      threads: 1

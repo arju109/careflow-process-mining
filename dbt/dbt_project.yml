@@ -1,0 +1,20 @@
+name: careflow
+version: '1.0.0'
+config-version: 2
+profile: careflow
+
+model-paths: ["models"]
+macro-paths: ["macros"]
+
+vars:
+  # Schema/dataset that holds the raw table.
+  #   DuckDB  : main      (default)
+  #   BigQuery: careflow  (pass --vars "{raw_schema: careflow}")
+  raw_schema: main
+
+models:
+  careflow:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table
