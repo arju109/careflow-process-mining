@@ -1,0 +1,50 @@
+version: 2
+
+models:
+  - name: stg_ehr_events
+    description: "Deduplicated, trimmed and parsed events with a row_status tag."
+    columns:
+      - name: row_status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['kept', 'missing_case_id', 'missing_or_bad_timestamp', 'unknown_activity']
+
+  - name: event_log
+    description: "Clean event log used by PM4Py and the dashboard."
+    columns:
+      - name: case_id
+        data_tests:
+          - not_null
+      - name: event_timestamp
+        data_tests:
+          - not_null
+      - name: activity
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Registration', 'Triage', 'Doctor Consultation', 'X-Ray',
+                         'Lab Test', 'Treatment', 'Discharge', 'Admission']
+      - name: event_order
+        data_tests:
+          - not_null
+
+  - name: transitions
+    description: "One row per hand-over between two consecutive steps of a visit."
+    columns:
+      - name: from_activity
+        data_tests:
+          - not_null
+      - name: to_activity
+        data_tests:
+          - not_null
+      - name: wait_minutes
+        data_tests:
+          - not_null
+
+  - name: bottleneck_summary
+    description: "Average and total waiting time for every pair of steps."
+
+  - name: wait_by_hour
+    description: "Average hand-over time by hour of day."

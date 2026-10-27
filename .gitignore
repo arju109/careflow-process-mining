@@ -226,3 +226,5 @@ data/raw_ehr_events*.csv
 dbt/target/
 dbt/logs/
 data/event_log.csv
+
+exports/

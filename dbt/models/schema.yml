@@ -29,3 +29,22 @@ models:
       - name: event_order
         data_tests:
           - not_null
+
+  - name: transitions
+    description: "One row per hand-over between two consecutive steps of a visit."
+    columns:
+      - name: from_activity
+        data_tests:
+          - not_null
+      - name: to_activity
+        data_tests:
+          - not_null
+      - name: wait_minutes
+        data_tests:
+          - not_null
+
+  - name: bottleneck_summary
+    description: "Average and total waiting time for every pair of steps."
+
+  - name: wait_by_hour
+    description: "Average hand-over time by hour of day."
