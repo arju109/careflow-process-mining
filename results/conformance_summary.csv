@@ -1,9 +1,9 @@
-metric,cases,percent_of_cases
-Total cases,5000,100.0
-Conformant cases,2466,49.32
-Non-conformant cases,2534,50.68
-Deviation: Repeated activity (rework),1697,33.94
-Deviation: Unexpected activity,1211,24.22
-Deviation: Missing step,1172,23.44
-Deviation: Wrong order,47,0.94
-Deviation: Diagnostic step out of position,16,0.32
+metric,value
+cases,5000
+compliant_cases,3354
+non_compliant_cases,1646
+compliance_pct,67.1
+avg_minutes_compliant,111.4
+avg_minutes_non_compliant,149.9
+extra_minutes_non_compliant,38.5
+events_skipped_in_loading,0

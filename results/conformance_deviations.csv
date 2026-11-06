@@ -1,0 +1,8 @@
+deviation,cases,pct_of_all_cases,pct_of_non_compliant,avg_minutes,extra_minutes_vs_compliant
+Sent back to Triage after X-Ray,1102,22.0,67.0,168.3,56.9
+Other deviation,193,3.9,11.7,122.8,11.4
+Triage skipped,146,2.9,8.9,104.6,-6.8
+Does not start with Registration,106,2.1,6.4,112.3,0.9
+Does not end with Discharge or Admission,103,2.1,6.3,90.7,-20.7
+X-Ray repeated,72,1.4,4.4,172.6,61.2
+Triage repeated,15,0.3,0.9,157.0,45.6
