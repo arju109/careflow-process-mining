@@ -66,6 +66,12 @@ models:
                 values: ['Sent back to Triage after X-Ray', 'Triage repeated', 'Triage skipped',
                          'X-Ray repeated', 'Does not start with Registration',
                          'Does not end with Discharge or Admission', 'Other deviation']
+      - name: age_group
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Under 18', '18-39', '40-64', '65+', 'Unknown']
 
   - name: conformance_summary
     description: "Headline conformance numbers (one row)."

@@ -16,7 +16,8 @@ with per_case as (
         min(event_timestamp)                                           as start_ts,
         max(event_timestamp)                                           as end_ts,
         max(doctor)                                                    as doctor,
-        max(severity)                                                  as severity
+        max(severity)                                                  as severity,
+        max(patient_age)                                               as patient_age
     from {{ ref('event_log') }}
     group by case_id
 
@@ -49,5 +50,13 @@ select
     round({{ minutes_between('start_ts', 'end_ts') }}, 1)           as duration_minutes,
     doctor,
     severity,
+    patient_age,
+    case
+        when patient_age is null then 'Unknown'
+        when patient_age < 18    then 'Under 18'
+        when patient_age < 40    then '18-39'
+        when patient_age < 65    then '40-64'
+        else '65+'
+    end                                                             as age_group,
     replace(trace, '>', ' > ')                                      as trace
 from flagged
