@@ -48,3 +48,28 @@ models:
 
   - name: wait_by_hour
     description: "Average hand-over time by hour of day."
+
+  - name: conformance_cases
+    description: "One row per visit: compliant with the mandated journey or not, and the main deviation."
+    columns:
+      - name: case_id
+        data_tests:
+          - not_null
+          - unique
+      - name: compliant
+        data_tests:
+          - not_null
+      - name: primary_deviation
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['Sent back to Triage after X-Ray', 'Triage repeated', 'Triage skipped',
+                         'X-Ray repeated', 'Does not start with Registration',
+                         'Does not end with Discharge or Admission', 'Other deviation']
+
+  - name: conformance_summary
+    description: "Headline conformance numbers (one row)."
+    columns:
+      - name: compliance_pct
+        data_tests:
+          - not_null

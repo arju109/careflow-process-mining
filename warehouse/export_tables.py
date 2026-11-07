@@ -16,8 +16,10 @@ try:
 except ImportError:
     sys.exit("Missing package. Run: pip install duckdb")
 
-DEFAULT_TABLES = ["event_log", "transitions", "bottleneck_summary", "wait_by_hour", "dq_summary"]
-ORDER = {"event_log": "case_id, event_order", "transitions": "case_id, step_number"}
+DEFAULT_TABLES = ["event_log", "transitions", "bottleneck_summary", "wait_by_hour", "dq_summary",
+                  "conformance_cases", "conformance_summary"]
+ORDER = {"event_log": "case_id, event_order", "transitions": "case_id, step_number",
+         "conformance_cases": "case_id"}
 
 
 def main():

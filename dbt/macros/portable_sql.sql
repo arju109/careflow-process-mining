@@ -30,3 +30,12 @@
     date_diff('second', {{ start_ts }}, {{ end_ts }}) / 60.0
   {%- endif -%}
 {% endmacro %}
+
+{# True when the text matches the regular expression (DuckDB and BigQuery use different functions). #}
+{% macro regex_match(col, pattern) %}
+  {%- if target.type == 'bigquery' -%}
+    regexp_contains({{ col }}, r'{{ pattern }}')
+  {%- else -%}
+    regexp_matches({{ col }}, '{{ pattern }}')
+  {%- endif -%}
+{% endmacro %}
