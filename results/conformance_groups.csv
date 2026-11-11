@@ -1,0 +1,9 @@
+group_type,group,cases,compliant_cases,compliance_pct
+doctor,Dr. Iyer,996,667,67.0
+doctor,Dr. Khan,1045,702,67.2
+doctor,Dr. Mehta,979,651,66.5
+doctor,Dr. Rao,950,628,66.1
+doctor,Dr. Singh,1030,706,68.5
+severity,High,741,486,65.6
+severity,Low,2485,1667,67.1
+severity,Medium,1774,1201,67.7

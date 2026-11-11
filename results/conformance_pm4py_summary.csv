@@ -1,0 +1,9 @@
+metric,value
+Total cases,5000.0
+PM4Py perfectly fitting cases,3354.0
+PM4Py fit %,67.08
+Custom check compliant cases,3354.0
+Custom check compliant %,67.08
+Cases where both methods agree,5000.0
+Agreement %,100.0
+Average log fitness,0.9494

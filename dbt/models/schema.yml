@@ -29,3 +29,53 @@ models:
       - name: event_order
         data_tests:
           - not_null
+
+  - name: transitions
+    description: "One row per hand-over between two consecutive steps of a visit."
+    columns:
+      - name: from_activity
+        data_tests:
+          - not_null
+      - name: to_activity
+        data_tests:
+          - not_null
+      - name: wait_minutes
+        data_tests:
+          - not_null
+
+  - name: bottleneck_summary
+    description: "Average and total waiting time for every pair of steps."
+
+  - name: wait_by_hour
+    description: "Average hand-over time by hour of day."
+
+  - name: conformance_cases
+    description: "One row per visit: compliant with the mandated journey or not, and the main deviation."
+    columns:
+      - name: case_id
+        data_tests:
+          - not_null
+          - unique
+      - name: compliant
+        data_tests:
+          - not_null
+      - name: primary_deviation
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['Sent back to Triage after X-Ray', 'Triage repeated', 'Triage skipped',
+                         'X-Ray repeated', 'Does not start with Registration',
+                         'Does not end with Discharge or Admission', 'Other deviation']
+      - name: age_group
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Under 18', '18-39', '40-64', '65+', 'Unknown']
+
+  - name: conformance_summary
+    description: "Headline conformance numbers (one row)."
+    columns:
+      - name: compliance_pct
+        data_tests:
+          - not_null

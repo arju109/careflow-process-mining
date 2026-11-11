@@ -1,0 +1,9 @@
+metric,value
+cases,5000
+compliant_cases,3354
+non_compliant_cases,1646
+compliance_pct,67.1
+avg_minutes_compliant,111.4
+avg_minutes_non_compliant,149.9
+extra_minutes_non_compliant,38.5
+events_skipped_in_loading,0

@@ -1,0 +1,101 @@
+trace,cases,pct_of_cases,compliant
+Registration > Triage > Doctor Consultation > X-Ray > Treatment > Discharge,1328,26.6,True
+Registration > Triage > Doctor Consultation > Treatment > Discharge,1107,22.1,True
+Registration > Triage > Doctor Consultation > X-Ray > Triage > Doctor Consultation > Treatment > Discharge,794,15.9,False
+Registration > Triage > Doctor Consultation > Lab Test > Doctor Consultation > Treatment > Discharge,421,8.4,True
+Registration > Triage > Doctor Consultation > X-Ray > Treatment > Admission,251,5.0,True
+Registration > Triage > Doctor Consultation > Treatment > Admission,171,3.4,True
+Registration > Triage > Doctor Consultation > X-Ray > Triage > Doctor Consultation > Treatment > Admission,140,2.8,False
+Registration > Triage > Doctor Consultation > Lab Test > Doctor Consultation > Treatment > Admission,76,1.5,True
+Registration > Doctor Consultation > X-Ray > Treatment > Discharge,55,1.1,False
+Registration > Doctor Consultation > Treatment > Discharge,38,0.8,False
+Registration > Triage > X-Ray > Treatment > Discharge,36,0.7,False
+Registration > Doctor Consultation > X-Ray > Triage > Doctor Consultation > Treatment > Discharge,33,0.7,False
+Registration > Triage > Doctor Consultation > X-Ray > X-Ray > Treatment > Discharge,31,0.6,False
+Registration > Triage > Doctor Consultation > X-Ray > Treatment,29,0.6,False
+Registration > Triage > Doctor Consultation > Treatment,29,0.6,False
+Registration > Triage > Doctor Consultation > X-Ray > Discharge,28,0.6,False
+Triage > Doctor Consultation > X-Ray > Treatment > Discharge,25,0.5,False
+Triage > Doctor Consultation > Treatment > Discharge,24,0.5,False
+Registration > Triage > Doctor Consultation > X-Ray > X-Ray > Triage > Doctor Consultation > Treatment > Discharge,24,0.5,False
+Registration > Triage > Treatment > Discharge,23,0.5,False
+Registration > Triage > Doctor Consultation > X-Ray > Triage > Doctor Consultation > Treatment,22,0.4,False
+Registration > Triage > Doctor Consultation > X-Ray > Doctor Consultation > Treatment > Discharge,20,0.4,False
+Triage > Doctor Consultation > X-Ray > Triage > Doctor Consultation > Treatment > Discharge,17,0.3,False
+Registration > Triage > Doctor Consultation > X-Ray > Triage > Doctor Consultation > Discharge,17,0.3,False
+Registration > Triage > Doctor Consultation > Discharge,17,0.3,False
+Registration > Triage > Doctor Consultation > X-Ray > Triage > Treatment > Discharge,16,0.3,False
+Registration > Doctor Consultation > Lab Test > Doctor Consultation > Treatment > Discharge,13,0.3,False
+Registration > Triage > X-Ray > Triage > Doctor Consultation > Treatment > Discharge,13,0.3,False
+Registration > Triage > Doctor Consultation > Lab Test > Treatment > Discharge,11,0.2,False
+Triage > Doctor Consultation > Lab Test > Doctor Consultation > Treatment > Discharge,10,0.2,False
+Registration > Triage > Doctor Consultation > Doctor Consultation > Treatment > Discharge,10,0.2,False
+Registration > Triage > Doctor Consultation > X-Ray > Admission,9,0.2,False
+Registration > Doctor Consultation > X-Ray > Treatment > Admission,9,0.2,False
+Registration > Triage > Lab Test > Doctor Consultation > Treatment > Discharge,9,0.2,False
+Registration > Triage > Doctor Consultation > Lab Test > Doctor Consultation > Treatment,9,0.2,False
+Triage > Doctor Consultation > Treatment > Admission,8,0.2,False
+Registration > Triage > Doctor Consultation > Triage > Doctor Consultation > Treatment > Discharge,8,0.2,False
+Registration > Doctor Consultation > Treatment > Admission,7,0.1,False
+Registration > Triage > Doctor Consultation > X-Ray > X-Ray > Treatment > Admission,6,0.1,False
+Registration > Doctor Consultation > X-Ray > Triage > Doctor Consultation > Treatment > Admission,6,0.1,False
+Registration > Triage > X-Ray > Treatment > Admission,6,0.1,False
+Registration > Triage > Treatment > Admission,5,0.1,False
+Registration > Triage > Doctor Consultation > Lab Test > Doctor Consultation > Discharge,5,0.1,False
+Registration > Triage > Doctor Consultation > X-Ray > Triage > Doctor Consultation > Admission,4,0.1,False
+Triage > Doctor Consultation > X-Ray > Treatment > Admission,4,0.1,False
+Registration > Doctor Consultation > Lab Test > Doctor Consultation > Treatment > Admission,4,0.1,False
+Registration > Triage > Lab Test > Doctor Consultation > Treatment > Admission,3,0.1,False
+Registration > Triage > Doctor Consultation > Triage > Doctor Consultation > Treatment > Admission,3,0.1,False
+Registration > Doctor Consultation > X-Ray > Treatment,3,0.1,False
+Doctor Consultation > X-Ray > Triage > Doctor Consultation > Treatment > Discharge,3,0.1,False
+Doctor Consultation > Treatment > Discharge,2,0.0,False
+Registration > Triage > Doctor Consultation > Doctor Consultation > Treatment > Admission,2,0.0,False
+Registration > Triage > Doctor Consultation > Lab Test > Doctor Consultation > Admission,2,0.0,False
+Registration > Doctor Consultation > Discharge,2,0.0,False
+Registration > Triage > Doctor Consultation > X-Ray > Doctor Consultation > Discharge,2,0.0,False
+Registration > Triage > Doctor Consultation > X-Ray,2,0.0,False
+Triage > Doctor Consultation > Triage > Doctor Consultation > Treatment > Discharge,2,0.0,False
+Registration > Doctor Consultation > X-Ray > Triage > Doctor Consultation > Discharge,2,0.0,False
+Registration > Treatment > Discharge,2,0.0,False
+Triage > Doctor Consultation > X-Ray > X-Ray > Treatment > Discharge,2,0.0,False
+Registration > Triage > Doctor Consultation > X-Ray > Triage > Treatment > Admission,1,0.0,False
+Doctor Consultation > Lab Test > Doctor Consultation > Treatment > Admission,1,0.0,False
+Triage > Doctor Consultation > X-Ray > Discharge,1,0.0,False
+Registration > Triage > Doctor Consultation,1,0.0,False
+Registration > Triage > X-Ray > X-Ray > Treatment > Discharge,1,0.0,False
+Registration > Triage > Doctor Consultation > Doctor Consultation > Discharge,1,0.0,False
+Registration > Triage > Doctor Consultation > X-Ray > Triage > Doctor Consultation,1,0.0,False
+Triage > Doctor Consultation > Lab Test > Doctor Consultation > Treatment > Admission,1,0.0,False
+Registration > Triage > Doctor Consultation > X-Ray > Doctor Consultation > Treatment,1,0.0,False
+Registration > Treatment > Admission,1,0.0,False
+Registration > Triage > Doctor Consultation > X-Ray > X-Ray > Treatment,1,0.0,False
+Registration > Triage > Doctor Consultation > Admission,1,0.0,False
+Doctor Consultation > X-Ray > Treatment > Discharge,1,0.0,False
+Registration > Triage > X-Ray > Treatment,1,0.0,False
+Registration > Triage > X-Ray > Triage > Doctor Consultation > Treatment > Admission,1,0.0,False
+Registration > Triage > X-Ray > Doctor Consultation > Treatment > Discharge,1,0.0,False
+Registration > Doctor Consultation > Doctor Consultation > Treatment > Discharge,1,0.0,False
+Registration > Triage > Doctor Consultation > X-Ray > Doctor Consultation > Treatment > Admission,1,0.0,False
+Doctor Consultation > X-Ray > Treatment > Admission,1,0.0,False
+Registration > Triage > Lab Test > Doctor Consultation > Treatment,1,0.0,False
+Registration > Triage > Doctor Consultation > X-Ray > X-Ray > Triage > Doctor Consultation > Treatment > Admission,1,0.0,False
+Registration > Triage > Doctor Consultation > X-Ray > Triage > Discharge,1,0.0,False
+Registration > Doctor Consultation > X-Ray > X-Ray > Triage > Doctor Consultation > Treatment > Admission,1,0.0,False
+Registration > Triage > Doctor Consultation > X-Ray > X-Ray > Doctor Consultation > Treatment > Discharge,1,0.0,False
+Registration > Triage > Doctor Consultation > Triage > Doctor Consultation > Discharge,1,0.0,False
+Registration > Triage > X-Ray > Discharge,1,0.0,False
+Registration > Triage > Doctor Consultation > Triage > Doctor Consultation > Treatment,1,0.0,False
+Registration > Doctor Consultation > X-Ray > Triage > Doctor Consultation > Treatment,1,0.0,False
+Registration > X-Ray > Treatment > Discharge,1,0.0,False
+Registration > Doctor Consultation > X-Ray > X-Ray > Treatment > Discharge,1,0.0,False
+Triage > Doctor Consultation > X-Ray > Triage > Doctor Consultation > Treatment > Admission,1,0.0,False
+Registration > Doctor Consultation > Treatment,1,0.0,False
+Triage > Doctor Consultation > X-Ray > Admission,1,0.0,False
+Treatment > Discharge,1,0.0,False
+Registration > Triage > Doctor Consultation > X-Ray > X-Ray > Triage > Doctor Consultation > Admission,1,0.0,False
+Registration > Doctor Consultation > X-Ray > X-Ray > Treatment > Admission,1,0.0,False
+Triage > X-Ray > Treatment > Discharge,1,0.0,False
+Registration > X-Ray > Triage > Doctor Consultation > Treatment > Admission,1,0.0,False
+Registration > Doctor Consultation > X-Ray > X-Ray > Triage > Doctor Consultation > Treatment > Discharge,1,0.0,False
+Registration > Doctor Consultation > X-Ray > Admission,1,0.0,False
