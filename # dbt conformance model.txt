@@ -1,0 +1,31 @@
+# dbt conformance model
+
+Models: `marts/conformance_cases.sql` (one row per visit) and
+`marts/conformance_summary.sql` (headline numbers). The compliance rule is the
+same regular expression as `analysis/conformance_check.py`.
+
+Mandated journey: Registration > Triage > Doctor Consultation >
+(X-Ray | Lab Test > Doctor Consultation) > Treatment > Discharge or Admission.
+
+## Tests
+- schema.yml: unique and not-null `case_id`, not-null `compliant`,
+  accepted values for `primary_deviation` and `age_group`.
+- `assert_compliant_has_no_deviation`, `assert_noncompliant_has_deviation`,
+  `assert_conformance_covers_all_cases`.
+- `assert_summary_matches_cases`: summary totals equal the case table.
+- `assert_compliance_pct_valid`: compliance is between 0 and 100.
+
+## Cross-check of three methods (5,000 visits)
+| Method | Compliant visits |
+|---|---|
+| Python (conformance_check.py) | 3,354 (67.1%) |
+| PM4Py token-based replay | 3,354 (67.08%) |
+| dbt (conformance_cases) | 3,354 (67.1%) |
+
+Average-minute figures differ by 0.1 min because of rounding in the minute
+calculation; case counts are identical.
+
+## Run
+    cd dbt
+    dbt run --select conformance_cases conformance_summary
+    dbt test --select conformance_cases conformance_summary

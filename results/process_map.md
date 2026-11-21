@@ -35,12 +35,21 @@ flowchart LR
     N_Triage -->|"n=45, avg 46.5 min"| N_Treatment
     N_X_Ray -->|"n=30, avg 66.9 min"| N_Discharge
     N_X_Ray -->|"n=26, avg 67.9 min"| N_Doctor_Consultation
+    N_Doctor_Consultation -->|"n=15, avg 52.6 min"| N_Triage
+    N_Doctor_Consultation -->|"n=14, avg 61.1 min"| N_Doctor_Consultation
+    N_Triage -->|"n=13, avg 44.1 min"| N_Lab_Test
+    N_X_Ray -->|"n=11, avg 69.5 min"| N_Admission
+    N_Lab_Test -->|"n=11, avg 62.1 min"| N_Treatment
+    N_Doctor_Consultation -->|"n=8, avg 48.4 min"| N_Admission
+    N_Registration -->|"n=3, avg 50.9 min"| N_Treatment
+    N_Registration -->|"n=2, avg 46.5 min"| N_X_Ray
+    N_Triage -->|"n=1, avg 54.6 min"| N_Discharge
     N_Discharge -->|"4165"| END
     N_Admission -->|"732"| END
     N_Treatment -->|"99"| END
     N_Doctor_Consultation -->|"2"| END
     N_X_Ray -->|"2"| END
-    linkStyle 10 stroke:#d62728,stroke-width:3px,color:#d62728
+    linkStyle 10,21 stroke:#d62728,stroke-width:3px,color:#d62728
 ```
 
 ## Rework (loop-back) edges
